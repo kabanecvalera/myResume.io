@@ -9,20 +9,19 @@
 }
 
 body {
-    height: 100%;
     margin: 0;
 }
 
 .page {
     min-width: 320px;
+    height: 100%;
 }
 
 /*шапка начало*/
 .header {
     background-color: $colr;
     background-position: center;
-    height: 540px;
-
+    
     &-menu{
         height: 5.7em;
         border-bottom: 1px solid #fff;
@@ -44,11 +43,31 @@ body {
     &-image{
         padding-top: 2px;
         width: 100%;
+        border-bottom: 1px solid #fff;
     }
 
     &-image-object{
         width: 100%;
     }
+    
+    &-info{
+        height: 100%;
+       background-color: $colr; 
+    }
+    
+    &-info-h{
+        
+    }
+    
+    &-info-p{
+        
+    }
+    
+    &-info-block{
+        
+    }
+    
+    
     
 /*GROW начало*/
 .pic {
@@ -153,7 +172,152 @@ body {
   top: -10px;
 }
 /*гамбургер css конец*/
+/*хєдєр конец*/
 }
+
+/*контент-works начало*/
+.works{
+       background: $colw;
+    height: 100%;
+    
+    &-objects{
+        
+    } 
+    
+    &-object1{
+      width: 100px;
+      height: 100px;
+    border: 1px solid #000;
+    } 
+    
+    &-object2{
+      width: 100px;
+      height: 100px;
+    border: 1px solid #000;
+    } 
+    
+    &-object3{
+       width: 100px;
+      height: 100px;
+    border: 1px solid #000;
+    } 
+    
+    &-object4{
+      width: 100px;
+      height: 100px;
+    border: 1px solid #000;
+    } 
+    
+    &-object5{
+      width: 100px;
+      height: 100px;
+    border: 1px solid #000;
+    } 
+    
+    &-object6{
+      width: 100px;
+      height: 100px;
+    border: 1px solid #000;
+    }
+    
+    &-add{
+        width: 20px;
+        height: 20px;
+        background: #fff;
+    }
+    
+    &-add-item{
+        text-decoration: none;
+    }
+    /*контент-works конец*/
+}
+
+/*контент-about начало*/
+.about{
+     height: 100%;
+    background: $cola;
+    
+    &-resume{
+    width: 280px;    
+     height: 430px;
+     background: #fff;
+    border: 1px solid #000;
+    }
+    
+    &-foto{
+    width: 255px;    
+     height: 280px;
+     background: $colg;
+    border: 1px solid #000;
+    }
+}
+/*контент-about конец*/
+
+/*контент-studio начало*/
+.studio{
+    height: 100%;
+    background: $cols;
+    
+    &-carousel{
+        height: 200px;
+        background: #fff;
+        border-top: 50px solid $cols;
+        border-bottom: 50px solid $cols;
+    }
+}
+/*контент-studio конец*/
+
+/*контент-contacts начало*/
+.contacts{
+    height: 100%;
+    background: $colc;
+    
+    &-item1{
+        height: 100px;
+    }
+    
+    &-item2{
+        height: 100px;
+    }
+    
+    &-item3{
+        height: 100px;
+    }
+}
+/*контент-contacts конец*/
+
+/*форма начало*/
+.form{
+    height: 100%;
+    background: $cola;
+    
+    &-field{
+        height: 100px;
+        background: #fff;
+        border: 1px solid #000;
+    }
+    
+    &-btn{
+        width: 70px;
+        height: 20px;
+        background: #fff;
+        border: 1px solid #000;
+    }
+}
+/*форма конец*/
+
+/*social начало*/
+.social{
+    height: 100%;
+    background: $colsoc;
+    
+    &-items{
+       border: 1px solid #000;
+    }
+}
+/*social конец*/
+
+
 
 @include MQ(S) {
     .wrapper{
