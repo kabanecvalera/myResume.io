@@ -27,8 +27,6 @@ body {
         border-bottom: 1px solid #fff;
     }
 
-
-
     &-logo{
         padding: 1.4em 0 0 .5em;
         float: left;
@@ -39,37 +37,165 @@ body {
         color: $colwf;
     }
     
-    
     &-image{
         padding-top: 2px;
         width: 100%;
         border-bottom: 1px solid #fff;
+        
+        &-object{
+            width: 100%;
+        }
     }
 
-    &-image-object{
-        width: 100%;
-    }
-    
-    &-info{
+    &-services{
         height: 100%;
-       background-color: $colr; 
-    }
-    
-    &-info-h{
+        background-color: $colr;
+        padding-top: 40px;
+        text-align: center;
         
+        &-h{
+            font: $fontb;
+            font-weight: 400;
+            color: $colwf;
+        }
+
+        &-p{
+            font: $fontb_s;
+            font-weight: 400;
+            color: $colwf;
+            padding-top: 10px;
+        }
     }
     
-    &-info-p{
-        
-    }
     
-    &-info-block{
-        
-    }
+        &-info{
+           
+            &1{
+                width: 90%;
+                padding-top: 30px;
+            
+            
+                &-img{
+                    
+                }
+                
+                &-content{
+                    margin-top: 20px;
+                    
+                    &-header{
+                        
+                        font: $fontb;
+                        color: $colwf;
+                    }
+
+                    &-txt{
+                        -moz-hyphens: auto;
+                        -webkit-hyphens: auto;
+                        -ms-hyphens: auto;
+                        padding: 10px 0 10px 20px;
+                        font: fontb_s;
+                        color: $colwf;
+                    }
+                }
+
+                &-ref{
+                    -webkit-border-radius: 3;
+                    -moz-border-radius: 3;
+                    border-radius: 3px;
+                    font-family: Arial;
+                    color: #fff;
+                    font-size: 11px;
+                    padding: 10px 20px 10px 20px;
+                    border: solid #fff 1px;
+                    text-decoration: none;
+
+
+                    &:hover {
+                      background: #3cb0fd;
+                      background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+                      background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+                      background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+                      background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+                      background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+                      text-decoration: none;
+                    } 
+                }
+            }
+        }
     
+        &-info{
+           
+            &2{
+                width: 90%;
+                padding-top: 30px;
+            
+            
+                &-img{
+                    
+                }
+                
+                &-content{
+                    margin-top: 20px;
+                    
+                    &-header{
+                        
+                        font: $fontb;
+                        color: $colwf;
+                    }
+
+                    &-txt{
+                        -moz-hyphens: auto;
+                        -webkit-hyphens: auto;
+                        -ms-hyphens: auto;    
+                        padding: 10px 0 10px 20px;
+                        font: fontb_s;
+                        color: $colwf;
+                    }
+                }
+
+                &-ref{
+                    
+                }
+            }
+        }
     
+        &-info{
+           
+            &3{
+                width: 90%;
+                padding-top: 30px;
+            
+            
+                &-img{
+                    
+                }
+                
+                &-content{
+                    margin-top: 20px;
+                    
+                    &-header{
+                        
+                        font: $fontb;
+                        color: $colwf;
+                    }
+
+                    &-txt{
+                        -moz-hyphens: auto;
+                        -webkit-hyphens: auto;
+                        -ms-hyphens: auto;
+                        padding: 10px 0 10px 20px;
+                        font: fontb_s;
+                        color: $colwf;
+                    }
+                }
+
+                &-ref{
+                    
+                }
+            }
+        }
     
-/*GROW начало*/
+        /*GROW начало*/
 .pic {
     border: 5px solid #fff;
     border-radius: 50%;
@@ -90,12 +216,13 @@ body {
     -o-transition: all 1s ease;
     -ms-transition: all 1s ease;
     transition: all 1s ease;
+    
+    &:hover {
+        width: 58px;
+        height: 58px;
+    }
 }
 
-.grow img:hover {
-    width: 58px;
-    height: 58px;
-}
 /*GROW конец*/
     
 /*гамбургер css начало*/
@@ -112,27 +239,26 @@ body {
     width: 25px;
     -webkit-transform: translateZ(0);
     -webkit-backface-visibility: hidden;
+    
+    & span {
+        display: block;
+        height: 5px;
+        background-color: #fff;
+        margin: 5px 0 0;
+        transition: all .1s linear .23s;
+        position: relative;
+    }
+
+    & span.first {
+        margin-top: 0;
+    }
 }
 
-.btn-menu span {
-  display: block;
-  height: 5px;
-  background-color: #fff;
-  margin: 5px 0 0;
-  transition: all .1s linear .23s;
-  position: relative;
-}
-    
-.btn-menu span.first {
-  margin-top: 0;
-}
-
-    
 .hidden-menu {
   display: block;
   position: fixed;
   list-style:none;
-  padding: 20px 0 0 100px;
+  padding: 140px 0 0 60px;
   margin: 0;
   box-sizing: border-box;
   width: 200px;
@@ -144,8 +270,23 @@ body {
   z-index: 2;
   -webkit-transform: translateZ(0);
   -webkit-backface-visibility: hidden;
-}
+    
+    & li {
+        padding-bottom: 10px;
+    }
 
+    & li a {
+        text-decoration: none;
+        font: 19px Ubuntu, Arial, sans-serif;
+        font-weight: 400;
+        color: $colh_l;
+        
+        &:hover {
+            color: $cola;
+        }
+    }
+}
+    
 .hidden-menu-ticker {
     display: none;
 }
