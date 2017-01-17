@@ -30,7 +30,7 @@ body {
     font: 2.1em "Lobster";
     color: #FEFEFE; }
   .header-image {
-    padding-top: 2px;
+    padding-top: .2em;
     width: 100%;
     border-bottom: 1px solid #fff; }
     .header-image-object {
@@ -38,7 +38,7 @@ body {
   .header-services {
     height: 100%;
     background-color: #CF5748;
-    padding-top: 40px;
+    padding-top: 2em;
     text-align: center; }
     .header-services-h {
       font: 19px Ubuntu, Arial, sans-serif;
@@ -48,70 +48,40 @@ body {
       font: 16px Ubuntu, Arial, sans-serif;
       font-weight: 400;
       color: #FEFEFE;
-      padding-top: 10px; }
-  .header-info1 {
-    width: 90%;
-    padding-top: 30px; }
-    .header-info1-content {
-      margin-top: 20px; }
-      .header-info1-content-header {
-        font: 19px Ubuntu, Arial, sans-serif;
-        color: #FEFEFE; }
-      .header-info1-content-txt {
-        -moz-hyphens: auto;
-        -webkit-hyphens: auto;
-        -ms-hyphens: auto;
-        padding: 10px 0 10px 20px;
-        font: fontb_s;
-        color: #FEFEFE; }
-    .header-info1-ref {
-      -webkit-border-radius: 3;
-      -moz-border-radius: 3;
-      border-radius: 3px;
-      font-family: Arial;
-      color: #fff;
-      font-size: 11px;
-      padding: 10px 20px 10px 20px;
-      border: solid #fff 1px;
-      text-decoration: none; }
-      .header-info1-ref:hover {
-        background: #3cb0fd;
-        background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-        background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-        background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-        background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-        background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+      padding-top: .5em; }
+  .header-info {
+    padding-bottom: 1em; }
+    .header-info1, .header-info2, .header-info3 {
+      width: 90%;
+      padding-top: 3em;
+      margin: 0 auto; }
+      .header-info1-content, .header-info2-content, .header-info3-content {
+        margin-top: 1em; }
+        .header-info1-content-header, .header-info2-content-header, .header-info3-content-header {
+          font: 19px Ubuntu, Arial, sans-serif;
+          color: #FEFEFE; }
+        .header-info1-content-txt, .header-info2-content-txt, .header-info3-content-txt {
+          -moz-hyphens: auto;
+          -webkit-hyphens: auto;
+          -ms-hyphens: auto;
+          width: 90%;
+          padding: .5em 0 1em .5em;
+          font-weight: 400;
+          font: 16px Ubuntu, Arial, sans-serif;
+          color: #FEFEFE; }
+      .header-info1-ref, .header-info2-ref, .header-info3-ref {
+        -webkit-border-radius: .2em;
+        -moz-border-radius: .2em;
+        border-radius: .2em;
+        font-family: Arial;
+        color: #fff;
+        font-size: .7em;
+        padding: .5em 1em;
+        border: solid #fff 1px;
         text-decoration: none; }
-  .header-info2 {
-    width: 90%;
-    padding-top: 30px; }
-    .header-info2-content {
-      margin-top: 20px; }
-      .header-info2-content-header {
-        font: 19px Ubuntu, Arial, sans-serif;
-        color: #FEFEFE; }
-      .header-info2-content-txt {
-        -moz-hyphens: auto;
-        -webkit-hyphens: auto;
-        -ms-hyphens: auto;
-        padding: 10px 0 10px 20px;
-        font: fontb_s;
-        color: #FEFEFE; }
-  .header-info3 {
-    width: 90%;
-    padding-top: 30px; }
-    .header-info3-content {
-      margin-top: 20px; }
-      .header-info3-content-header {
-        font: 19px Ubuntu, Arial, sans-serif;
-        color: #FEFEFE; }
-      .header-info3-content-txt {
-        -moz-hyphens: auto;
-        -webkit-hyphens: auto;
-        -ms-hyphens: auto;
-        padding: 10px 0 10px 20px;
-        font: fontb_s;
-        color: #FEFEFE; }
+        .header-info1-ref:hover, .header-info2-ref:hover, .header-info3-ref:hover {
+          background: #3cb0fd;
+          text-decoration: none; }
   .header .pic {
     border: 5px solid #fff;
     border-radius: 50%;
@@ -199,37 +169,45 @@ body {
 .works {
   background: #EBEBEA;
   height: 100%;
+  padding: 3.5em 0 .5em;
+  text-align: center;
   /*╨║╨╛╨╜╤В╨╡╨╜╤В-works ╨║╨╛╨╜╨╡╤Ж*/ }
-  .works-object1 {
+  .works-header {
+    font: 19px Ubuntu, Arial, sans-serif;
+    font-weight: 400;
+    color: #313131; }
+  .works-txt {
+    font: 16px Ubuntu, Arial, sans-serif;
+    font-weight: 400;
+    color: #313131;
+    padding-top: 1em; }
+  .works-box-form {
+    padding-top: 1em; }
+  .works-form {
+    padding: .7em 4em; }
+  .works-objects {
+    width: 75%;
+    display: inline-block; }
+  .works-object1, .works-object3, .works-object5 {
     width: 100px;
     height: 100px;
-    border: 1px solid #000; }
-  .works-object2 {
+    border: 1px solid #000;
+    float: left;
+    margin-top: 2em; }
+  .works-object2, .works-object4, .works-object6 {
     width: 100px;
     height: 100px;
-    border: 1px solid #000; }
-  .works-object3 {
-    width: 100px;
-    height: 100px;
-    border: 1px solid #000; }
-  .works-object4 {
-    width: 100px;
-    height: 100px;
-    border: 1px solid #000; }
-  .works-object5 {
-    width: 100px;
-    height: 100px;
-    border: 1px solid #000; }
-  .works-object6 {
-    width: 100px;
-    height: 100px;
-    border: 1px solid #000; }
+    border: 1px solid #000;
+    float: left;
+    margin: 2em 0 0 2em; }
   .works-add {
-    width: 20px;
-    height: 20px;
-    background: #fff; }
+    width: 1.5em;
+    height: 1.5em;
+    background: #fff;
+    margin: 2em auto; }
   .works-add-item {
-    text-decoration: none; }
+    text-decoration: none;
+    vertical-align: middle; }
 
 /*╨║╨╛╨╜╤В╨╡╨╜╤В-about ╨╜╨░╤З╨░╨╗╨╛*/
 .about {
@@ -301,10 +279,31 @@ body {
 
   .header {
     background-color: #CF5748;
-    background-position: center;
-    height: 290px; }
+    background-position: center; }
+    .header-menu {
+      height: 5.7em;
+      border-bottom: 1px solid #fff; }
     .header-logo {
-      padding: 1.4em 0 0 1.5em; } }
+      padding: 1.4em 0 0 .5em;
+      float: left; }
+    .header-logo-txt {
+      font: 2.1em "Lobster";
+      color: #FEFEFE; }
+
+  .works-objects {
+    width: 90%; }
+  .works-object1, .works-object4 {
+    width: 120px;
+    height: 120px;
+    border: 1px solid #000;
+    float: left;
+    margin-left: .4em; }
+  .works-object2, .works-object3, .works-object5, .works-object6 {
+    width: 120px;
+    height: 120px;
+    border: 1px solid #000;
+    float: left;
+    margin-left: 1.7em; } }
 @media only screen and (min-width: 768px) {
   .wrapper {
     max-width: 768px;
@@ -314,7 +313,7 @@ body {
   .header {
     background-color: #CF5748;
     background-position: center;
-    height: 500px; }
+    height: 100%; }
     .header-logo-txt {
       font: 2.5em "Lobster"; }
     .header .hidden-menu {
