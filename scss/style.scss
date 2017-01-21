@@ -279,8 +279,8 @@ body {
     &-object1,
     &-object3,
     &-object5{
-        width: 100px;
-        height: 100px;
+        width: 31.5vw;
+        height: 31.5vw;
         border: 1px solid #000;
         float: left;
         margin-top: 2em;
@@ -289,8 +289,8 @@ body {
     &-object2,
     &-object4,
     &-object6{
-        width: 100px;
-        height: 100px;
+        width: 31.5vw;
+        height: 31.5vw;
         border: 1px solid #000;
         float: left;
         margin: 2em 0 0 2em;
@@ -437,8 +437,8 @@ body {
         
         &-object1,
         &-object4{
-            width: 120px;
-            height: 120px;
+            width: 25vw;
+            height:25vw;
             border: 1px solid #000;
             float: left;
             margin-left: .4em;
@@ -448,8 +448,8 @@ body {
         &-object3,
         &-object5,
         &-object6{
-            width: 120px;
-            height: 120px;
+            width: 25vw;
+            height:25vw;
             border: 1px solid #000;
             float: left;
             margin-left: 1.7em;
@@ -496,8 +496,8 @@ body {
         
         &-object1,
         &-object4{
-            width: 185px;
-            height: 185px;
+            width: 24vw;
+            height: 24vw;
             border: 1px solid #000;
             float: left;
             margin: 3.2em 0 0 .8em;
@@ -507,8 +507,8 @@ body {
         &-object3,
         &-object5,
         &-object6{
-            width: 185px;
-            height: 185px;
+            width: 24vw;
+            height: 24vw;
             border: 1px solid #000;
             float: left;
             margin: 3.2em 0 0 3.2em;
@@ -537,9 +537,22 @@ body {
         .hidden-menu-ticker:checked ~ .btn-menu {
             right: 310px;
         }
+        
+        &-info{
+            display: inline-block;
+                
+            &1,
+            &2,
+            &3{
+                width: 30%;
+                float: left;
+                padding: 1em;
+            }
+        }
     }
     
     .works{
+        height: 100%;
         
         &-box-form{
             margin-top: 1.5em;
@@ -575,8 +588,8 @@ body {
         
         &-object1,
         &-object5{
-            width: 185px;
-            height: 185px;
+            width: 18vw;
+            height: 18vw;
             border: 1px solid #000;
             float: left;
             margin: 3.2em 0 0 .8em;
@@ -586,8 +599,8 @@ body {
         &-object3,
         &-object4,
         &-object6{
-            width: 185px;
-            height: 185px;
+            width: 18vw;
+            height: 18vw;
             border: 1px solid #000;
             float: left;
             margin: 3.2em 0 0 3.2em;
@@ -596,8 +609,8 @@ body {
         &-object7,
         &-object8{
             visibility: visible;
-            width: 185px;
-            height: 185px;
+            width: 18vw;
+            height: 18vw;
             border: 1px solid #000;
             float: left;
             margin: 3.2em 0 0 3.2em;
@@ -615,7 +628,7 @@ body {
     .header {
         background-color: $colr;
         background-position: center;
-        height: 700px;
+        height: 100%;
 
         &-logo{
             padding: .8em 0 0 2em;
@@ -625,21 +638,21 @@ body {
             font: 3em $fonth;
         }
         
-    .pic {
-        margin: 8px 0 0 30px; 
-        height: 61px;
-        width: 61px;
-}
-    
-    .grow img {
-        height: 61px;
-        width: 61px;
- }
+        .pic {
+            margin: 8px 0 0 30px; 
+            height: 61px;
+            width: 61px;
+        }
 
-    .grow img:hover {
-        width: 68px;
-        height: 68px;
-    }
+        .grow img {
+            height: 61px;
+            width: 61px;
+        }
+
+        .grow img:hover {
+            width: 68px;
+            height: 68px;
+        }
 
         .hidden-menu {
             padding: 10px 0 0 150px;
@@ -649,6 +662,72 @@ body {
 
         .hidden-menu-ticker:checked ~ .btn-menu {
             right: 330px;
+        }
+    }
+    
+    .works{
+        height: 100%;
+        
+        &-box-form{
+            margin-top: 1.5em;
+            width: 50em;
+            height: 2.5em;
+            display: inline-block;
+        }
+        
+        &-box-form1{
+            width: 18em;
+            height: 1em;
+            float: left; 
+        }
+        
+        &-txt{
+            height: 1em;
+            line-height: .1em;
+        }
+        
+        &-box-form2{
+            width: 20em;
+            height: 2.5em;
+            float: left; 
+        }
+        
+        &-form{
+            padding: .7em 10em; 
+        }
+        
+        &-objects{
+            width: 95%;
+        }
+        
+        &-object1,
+        &-object5{
+            width: 20vw;
+            height: 20vw;
+            border: 1px solid #000;
+            float: left;
+            margin: 3.2em 0 0 .8em;
+        }
+        
+        &-object2,
+        &-object3,
+        &-object4,
+        &-object6{
+            width: 20vw;
+            height: 20vw;
+            border: 1px solid #000;
+            float: left;
+            margin: 3.2em 0 0 3.2em;
+        }
+        
+        &-object7,
+        &-object8{
+            visibility: visible;
+            width: 20vw;
+            height: 20vw;
+            border: 1px solid #000;
+            float: left;
+            margin: 3.2em 0 0 3.2em;
         }
     }
 }
@@ -663,7 +742,7 @@ body {
     .header {
         background-color: $colr;
         background-position: center;
-        height: 700px;
+        height: 100%;
 
         &-logo{
             padding: .5em 0 0 3em;
@@ -704,5 +783,71 @@ body {
 
     .hidden-menu-ticker:checked ~ .btn-menu {
         right: 500px;
-}
+    }
+    
+    .works{
+        height: 100%;
+        
+        &-box-form{
+            margin-top: 1.5em;
+            width: 50em;
+            height: 2.5em;
+            display: inline-block;
+        }
+        
+        &-box-form1{
+            width: 18em;
+            height: 1em;
+            float: left; 
+        }
+        
+        &-txt{
+            height: 1em;
+            line-height: .1em;
+        }
+        
+        &-box-form2{
+            width: 20em;
+            height: 2.5em;
+            float: left; 
+        }
+        
+        &-form{
+            padding: .7em 10em; 
+        }
+        
+        &-objects{
+            width: 90%;
+        }
+        
+        &-object1,
+        &-object5{
+            width: 20vw;
+            height: 20vw;
+            border: 1px solid #000;
+            float: left;
+            margin: 3.2em 0 0 .8em;
+        }
+        
+        &-object2,
+        &-object3,
+        &-object4,
+        &-object6{
+            width: 20vw;
+            height: 20vw;
+            border: 1px solid #000;
+            float: left;
+            margin: 3.2em 0 0 3.2em;
+        }
+        
+        &-object7,
+        &-object8{
+            visibility: visible;
+            width: 20vw;
+            height: 20vw;
+            border: 1px solid #000;
+            float: left;
+            margin: 3.2em 0 0 3.2em;
+        }
+    }
 }

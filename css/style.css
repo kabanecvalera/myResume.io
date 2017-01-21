@@ -191,14 +191,14 @@ body {
     width: 75%;
     display: inline-block; }
   .works-object1, .works-object3, .works-object5 {
-    width: 100px;
-    height: 100px;
+    width: 31.5vw;
+    height: 31.5vw;
     border: 1px solid #000;
     float: left;
     margin-top: 2em; }
   .works-object2, .works-object4, .works-object6 {
-    width: 100px;
-    height: 100px;
+    width: 31.5vw;
+    height: 31.5vw;
     border: 1px solid #000;
     float: left;
     margin: 2em 0 0 2em; }
@@ -297,14 +297,14 @@ body {
   .works-objects {
     width: 90%; }
   .works-object1, .works-object4 {
-    width: 120px;
-    height: 120px;
+    width: 25vw;
+    height: 25vw;
     border: 1px solid #000;
     float: left;
     margin-left: .4em; }
   .works-object2, .works-object3, .works-object5, .works-object6 {
-    width: 120px;
-    height: 120px;
+    width: 25vw;
+    height: 25vw;
     border: 1px solid #000;
     float: left;
     margin-left: 1.7em; } }
@@ -332,14 +332,14 @@ body {
   .works-objects {
     width: 90%; }
   .works-object1, .works-object4 {
-    width: 185px;
-    height: 185px;
+    width: 24vw;
+    height: 24vw;
     border: 1px solid #000;
     float: left;
     margin: 3.2em 0 0 .8em; }
   .works-object2, .works-object3, .works-object5, .works-object6 {
-    width: 185px;
-    height: 185px;
+    width: 24vw;
+    height: 24vw;
     border: 1px solid #000;
     float: left;
     margin: 3.2em 0 0 3.2em; } }
@@ -359,46 +359,54 @@ body {
       right: -380px; }
     .header .hidden-menu-ticker:checked ~ .btn-menu {
       right: 310px; }
+    .header-info {
+      display: inline-block; }
+      .header-info1, .header-info2, .header-info3 {
+        width: 30%;
+        float: left;
+        padding: 1em; }
 
-  .works-box-form {
-    margin-top: 1.5em;
-    width: 50em;
-    height: 2.5em;
-    display: inline-block; }
-  .works-box-form1 {
-    width: 18em;
-    height: 1em;
-    float: left; }
-  .works-txt {
-    height: 1em;
-    line-height: .1em; }
-  .works-box-form2 {
-    width: 20em;
-    height: 2.5em;
-    float: left; }
-  .works-form {
-    padding: .7em 10em; }
-  .works-objects {
-    width: 90%; }
-  .works-object1, .works-object5 {
-    width: 185px;
-    height: 185px;
-    border: 1px solid #000;
-    float: left;
-    margin: 3.2em 0 0 .8em; }
-  .works-object2, .works-object3, .works-object4, .works-object6 {
-    width: 185px;
-    height: 185px;
-    border: 1px solid #000;
-    float: left;
-    margin: 3.2em 0 0 3.2em; }
-  .works-object7, .works-object8 {
-    visibility: visible;
-    width: 185px;
-    height: 185px;
-    border: 1px solid #000;
-    float: left;
-    margin: 3.2em 0 0 3.2em; } }
+  .works {
+    height: 100%; }
+    .works-box-form {
+      margin-top: 1.5em;
+      width: 50em;
+      height: 2.5em;
+      display: inline-block; }
+    .works-box-form1 {
+      width: 18em;
+      height: 1em;
+      float: left; }
+    .works-txt {
+      height: 1em;
+      line-height: .1em; }
+    .works-box-form2 {
+      width: 20em;
+      height: 2.5em;
+      float: left; }
+    .works-form {
+      padding: .7em 10em; }
+    .works-objects {
+      width: 90%; }
+    .works-object1, .works-object5 {
+      width: 18vw;
+      height: 18vw;
+      border: 1px solid #000;
+      float: left;
+      margin: 3.2em 0 0 .8em; }
+    .works-object2, .works-object3, .works-object4, .works-object6 {
+      width: 18vw;
+      height: 18vw;
+      border: 1px solid #000;
+      float: left;
+      margin: 3.2em 0 0 3.2em; }
+    .works-object7, .works-object8 {
+      visibility: visible;
+      width: 18vw;
+      height: 18vw;
+      border: 1px solid #000;
+      float: left;
+      margin: 3.2em 0 0 3.2em; } }
 @media only screen and (min-width: 1280px) {
   .wrapper {
     max-width: 1280px;
@@ -408,7 +416,7 @@ body {
   .header {
     background-color: #CF5748;
     background-position: center;
-    height: 700px; }
+    height: 100%; }
     .header-logo {
       padding: .8em 0 0 2em; }
     .header-logo-txt {
@@ -428,7 +436,49 @@ body {
       width: 400px;
       right: -400px; }
     .header .hidden-menu-ticker:checked ~ .btn-menu {
-      right: 330px; } }
+      right: 330px; }
+
+  .works {
+    height: 100%; }
+    .works-box-form {
+      margin-top: 1.5em;
+      width: 50em;
+      height: 2.5em;
+      display: inline-block; }
+    .works-box-form1 {
+      width: 18em;
+      height: 1em;
+      float: left; }
+    .works-txt {
+      height: 1em;
+      line-height: .1em; }
+    .works-box-form2 {
+      width: 20em;
+      height: 2.5em;
+      float: left; }
+    .works-form {
+      padding: .7em 10em; }
+    .works-objects {
+      width: 95%; }
+    .works-object1, .works-object5 {
+      width: 20vw;
+      height: 20vw;
+      border: 1px solid #000;
+      float: left;
+      margin: 3.2em 0 0 .8em; }
+    .works-object2, .works-object3, .works-object4, .works-object6 {
+      width: 20vw;
+      height: 20vw;
+      border: 1px solid #000;
+      float: left;
+      margin: 3.2em 0 0 3.2em; }
+    .works-object7, .works-object8 {
+      visibility: visible;
+      width: 20vw;
+      height: 20vw;
+      border: 1px solid #000;
+      float: left;
+      margin: 3.2em 0 0 3.2em; } }
 @media only screen and (min-width: 1280px) {
   .wrapper {
     max-width: 1900px;
@@ -438,7 +488,7 @@ body {
   .header {
     background-color: #CF5748;
     background-position: center;
-    height: 700px; }
+    height: 100%; }
     .header-logo {
       padding: .5em 0 0 3em; }
     .header-logo-txt {
@@ -468,6 +518,48 @@ body {
     right: -600px; }
 
   .hidden-menu-ticker:checked ~ .btn-menu {
-    right: 500px; } }
+    right: 500px; }
+
+  .works {
+    height: 100%; }
+    .works-box-form {
+      margin-top: 1.5em;
+      width: 50em;
+      height: 2.5em;
+      display: inline-block; }
+    .works-box-form1 {
+      width: 18em;
+      height: 1em;
+      float: left; }
+    .works-txt {
+      height: 1em;
+      line-height: .1em; }
+    .works-box-form2 {
+      width: 20em;
+      height: 2.5em;
+      float: left; }
+    .works-form {
+      padding: .7em 10em; }
+    .works-objects {
+      width: 90%; }
+    .works-object1, .works-object5 {
+      width: 20vw;
+      height: 20vw;
+      border: 1px solid #000;
+      float: left;
+      margin: 3.2em 0 0 .8em; }
+    .works-object2, .works-object3, .works-object4, .works-object6 {
+      width: 20vw;
+      height: 20vw;
+      border: 1px solid #000;
+      float: left;
+      margin: 3.2em 0 0 3.2em; }
+    .works-object7, .works-object8 {
+      visibility: visible;
+      width: 20vw;
+      height: 20vw;
+      border: 1px solid #000;
+      float: left;
+      margin: 3.2em 0 0 3.2em; } }
 
 /*# sourceMappingURL=style.css.map */
