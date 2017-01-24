@@ -191,14 +191,14 @@ body {
     width: 75%;
     display: inline-block; }
   .works-object1, .works-object3, .works-object5 {
-    width: 31.5vw;
-    height: 31.5vw;
+    width: 100px;
+    height: 100px;
     border: 1px solid #000;
     float: left;
     margin-top: 2em; }
   .works-object2, .works-object4, .works-object6 {
-    width: 31.5vw;
-    height: 31.5vw;
+    width: 100px;
+    height: 100px;
     border: 1px solid #000;
     float: left;
     margin: 2em 0 0 2em; }
@@ -217,22 +217,73 @@ body {
 .about {
   height: 100%;
   background: #EDBD47; }
-  .about-resume {
-    width: 280px;
-    height: 430px;
-    background: #fff;
-    border: 1px solid #000; }
+  .about-header {
+    font: 19px Ubuntu, Arial, sans-serif;
+    font-weight: 400;
+    color: #FEFEFE;
+    text-align: center;
+    padding: 1em 0 .5em; }
+  .about-txt {
+    font: 16px Ubuntu, Arial, sans-serif;
+    font-weight: 400;
+    color: #FEFEFE;
+    text-align: center;
+    padding: .5em 0 1em; }
   .about-foto {
-    width: 255px;
-    height: 280px;
-    background: #92AECB;
-    border: 1px solid #000; }
+    width: 90%;
+    background: #fff;
+    margin: 5px auto; }
+    .about-foto-box {
+      width: 90%;
+      padding: 5% 5% 0 5%; }
+    .about-foto-object {
+      width: 100%; }
+    .about-foto-txt {
+      text-align: center;
+      padding: 5% 0; }
+  .about-resume {
+    padding-bottom: 2em;
+    text-align: center; }
+    .about-resume-txt {
+      padding: 1em;
+      width: 90%;
+      -moz-hyphens: auto;
+      -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+      font-weight: 400;
+      font: 16px Ubuntu, Arial, sans-serif;
+      color: #FEFEFE; }
+    .about-resume-btn {
+      -webkit-border-radius: .2em;
+      -moz-border-radius: .2em;
+      border-radius: .2em;
+      font-family: Arial;
+      color: #fff;
+      font-size: .7em;
+      padding: .5em 1em;
+      border: solid #fff 1px;
+      text-decoration: none; }
+      .about-resume-btn:hover {
+        background: #3cb0fd;
+        text-decoration: none; }
 
 /*╨║╨╛╨╜╤В╨╡╨╜╤В-about ╨║╨╛╨╜╨╡╤Ж*/
 /*╨║╨╛╨╜╤В╨╡╨╜╤В-studio ╨╜╨░╤З╨░╨╗╨╛*/
 .studio {
   height: 100%;
   background: #3DB062; }
+  .studio-header {
+    text-align: center;
+    padding-top: 2em; }
+    .studio-header-item1 {
+      font: 19px Ubuntu, Arial, sans-serif;
+      font-weight: 400;
+      color: #FEFEFE; }
+    .studio-header-item2 {
+      font: 16px Ubuntu, Arial, sans-serif;
+      font-weight: 400;
+      color: #FEFEFE;
+      padding-top: .5em; }
   .studio-carousel {
     height: 200px;
     background: #fff;
@@ -297,14 +348,14 @@ body {
   .works-objects {
     width: 90%; }
   .works-object1, .works-object4 {
-    width: 25vw;
-    height: 25vw;
+    width: 120px;
+    height: 120px;
     border: 1px solid #000;
     float: left;
     margin-left: .4em; }
   .works-object2, .works-object3, .works-object5, .works-object6 {
-    width: 25vw;
-    height: 25vw;
+    width: 120px;
+    height: 120px;
     border: 1px solid #000;
     float: left;
     margin-left: 1.7em; } }
