@@ -427,17 +427,23 @@ body {
 .contacts{
     height: 100%;
     background: $colc;
+    text-align: center;
+    padding: 50px 0;
     
-    &-item1{
-        height: 100px;
-    }
-    
-    &-item2{
-        height: 100px;
-    }
-    
+    &-item1,
+    &-item2,
     &-item3{
+        padding: 50px;
         height: 100px;
+    }
+    
+    &-item1-txt,
+    &-item2-txt,
+    &-item3-txt{
+        font: $fontb_s;
+        font-weight: 400;
+        color: $colwf;
+        padding-top: 25px;
     }
 }
 /*контент-contacts конец*/
