@@ -1,0 +1,52 @@
+.s-101_a, .s-102, .s-102_a, .s-103, .s-103_a, .s-104, .s-104_a, .s-101{
+	background: url(sprites.png) no-repeat;
+}
+
+.s-101_a{
+	background-position: 0 -58px ;
+	width: 55px;
+	height: 55px;
+}
+
+.s-102{
+	background-position: -59px 0;
+	width: 55px;
+	height: 55px;
+}
+
+.s-102_a{
+	background-position: -59px -57px ;
+	width: 55px;
+	height: 55px;
+}
+
+.s-103{
+	background-position: -117px 0;
+	width: 55px;
+	height: 55px;
+}
+
+.s-103_a{
+	background-position: -118px -59px ;
+	width: 55px;
+	height: 55px;
+}
+
+.s-104{
+	background-position: -176px 0;
+	width: 55px;
+	height: 55px;
+}
+
+.s-104_a{
+	background-position: -176px -57px ;
+	width: 55px;
+	height: 55px;
+}
+
+.s-101{
+	background-position: 0 0;
+	width: 55px;
+	height: 55px;
+}
+

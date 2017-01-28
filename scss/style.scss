@@ -448,36 +448,106 @@ body {
 }
 /*контент-contacts конец*/
 
-/*форма начало*/
+/*форма начало - предварительно*/
 .form{
-    height: 100%;
+    padding-bottom: 30px;
+    text-align: center;
     background: $cola;
     
-    &-field{
-        height: 100px;
-        background: #fff;
-        border: 1px solid #000;
+    &-header{
+        font: $fontb;
+        font-weight: 400;
+        color: $colwf;
+        text-align: center;
+        padding: 1em 0 .5em;
+    }
+
+    &-txt{
+        font: $fontb_s;
+        font-weight: 400;
+        color: $colwf;
+        text-align: center;
+        padding: .5em 0 1em;
+    }
+
+    &-user{
+        margin: 18px auto;
+    }
+
+    &-input{
+        width: 243px;
+        height: 35px;
+        padding: 0 16px;
+        margin-bottom: 16px;
+        font-size: 15px;
+        line-height: 35px;
+        border: 1px solid #dde2e4;
+        border: 0;
+        border-radius: 3px;
     }
     
-    &-btn{
-        width: 70px;
-        height: 20px;
-        background: #fff;
-        border: 1px solid #000;
+    &-input-txt{
+        width: 243px;
+        padding: 10px 16px 50px 16px;
+        font-size: 15px;
+        border: 1px solid #dde2e4;
+        border: 0;
+        border-radius: 3px;
+    }
+
+   &-btn{
+        width: 60px;
+        height: 25px;
+        margin: 0 9px;
+        font-size: 11px;
+        color: #fff;
+        text-transform: uppercase;
+        background: $colc;
+        border: 0;
+        border-radius: 3px;
     }
 }
 /*форма конец*/
 
-/*social начало*/
-.social{
+/*footer начало*/
+.footer{
     height: 100%;
     background: $colsoc;
     
-    &-items{
-       border: 1px solid #000;
+    &-social{
+        padding: 20px 0;
+        
+        &-item{
+           padding-left: 17px;
+        }
+    }
+    
+    &-txt{
+        width: 200px;
+        margin: 30px auto 0;
+    }
+    
+    &-copy{
+        font: $fontb_s;
+        font-weight: bold;
+        color: $colbf;
+        padding: 0 0 20px 30px;
+    }
+    
+    &-txt1{
+        font: $fontb_s;
+        color: $colgf;
+    }
+    
+    &-txt2{
+        font: 11px Ubuntu, Arial, sans-serif;
+        color: $colgf;
+        margin-top: 50px;
+        padding-top: 100px;
+        text-align: center;
     }
 }
-/*social конец*/
+/*footer конец*/
 
 
 

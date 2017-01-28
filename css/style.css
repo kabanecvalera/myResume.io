@@ -307,29 +307,81 @@ body {
     padding-top: 25px; }
 
 /*╨║╨╛╨╜╤В╨╡╨╜╤В-contacts ╨║╨╛╨╜╨╡╤Ж*/
-/*╤Д╨╛╤А╨╝╨░ ╨╜╨░╤З╨░╨╗╨╛*/
+/*╤Д╨╛╤А╨╝╨░ ╨╜╨░╤З╨░╨╗╨╛ - ╨┐╤А╨╡╨┤╨▓╨░╤А╨╕╤В╨╡╨╗╤М╨╜╨╛*/
 .form {
-  height: 100%;
+  padding-bottom: 30px;
+  text-align: center;
   background: #EDBD47; }
-  .form-field {
-    height: 100px;
-    background: #fff;
-    border: 1px solid #000; }
+  .form-header {
+    font: 19px Ubuntu, Arial, sans-serif;
+    font-weight: 400;
+    color: #FEFEFE;
+    text-align: center;
+    padding: 1em 0 .5em; }
+  .form-txt {
+    font: 16px Ubuntu, Arial, sans-serif;
+    font-weight: 400;
+    color: #FEFEFE;
+    text-align: center;
+    padding: .5em 0 1em; }
+  .form-user {
+    margin: 18px auto; }
+  .form-input {
+    width: 243px;
+    height: 35px;
+    padding: 0 16px;
+    margin-bottom: 16px;
+    font-size: 15px;
+    line-height: 35px;
+    border: 1px solid #dde2e4;
+    border: 0;
+    border-radius: 3px; }
+  .form-input-txt {
+    width: 243px;
+    padding: 10px 16px 50px 16px;
+    font-size: 15px;
+    border: 1px solid #dde2e4;
+    border: 0;
+    border-radius: 3px; }
   .form-btn {
-    width: 70px;
-    height: 20px;
-    background: #fff;
-    border: 1px solid #000; }
+    width: 60px;
+    height: 25px;
+    margin: 0 9px;
+    font-size: 11px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #323232;
+    border: 0;
+    border-radius: 3px; }
 
 /*╤Д╨╛╤А╨╝╨░ ╨║╨╛╨╜╨╡╤Ж*/
-/*social ╨╜╨░╤З╨░╨╗╨╛*/
-.social {
+/*footer ╨╜╨░╤З╨░╨╗╨╛*/
+.footer {
   height: 100%;
   background: #D0D0CF; }
-  .social-items {
-    border: 1px solid #000; }
+  .footer-social {
+    padding: 20px 0; }
+    .footer-social-item {
+      padding-left: 17px; }
+  .footer-txt {
+    width: 200px;
+    margin: 30px auto 0; }
+  .footer-copy {
+    font: 16px Ubuntu, Arial, sans-serif;
+    font-weight: bold;
+    color: #313131;
+    padding: 0 0 20px 30px; }
+  .footer-txt1 {
+    font: 16px Ubuntu, Arial, sans-serif;
+    color: #8B8B8B; }
+  .footer-txt2 {
+    font: 11px Ubuntu, Arial, sans-serif;
+    color: #8B8B8B;
+    margin-top: 50px;
+    padding-top: 100px;
+    text-align: center; }
 
-/*social ╨║╨╛╨╜╨╡╤Ж*/
+/*footer ╨║╨╛╨╜╨╡╤Ж*/
 @media only screen and (min-width: 480px) {
   .wrapper {
     max-width: 480px;
