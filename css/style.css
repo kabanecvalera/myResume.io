@@ -360,12 +360,67 @@ body {
   height: 100%;
   background: #D0D0CF; }
   .footer-social {
-    padding: 20px 0; }
-    .footer-social-item {
-      padding-left: 17px; }
+    position: relative;
+    margin: 0; }
+    .footer-social-item1 {
+      background: url(../img/sprites.png) 0 0;
+      width: 55px;
+      height: 55px;
+      position: absolute;
+      top: 15px;
+      left: 20px; }
+    .footer-social-item1:hover {
+      background: url(../img/sprites.png) -1px -57px;
+      width: 57px;
+      height: 54px;
+      position: absolute;
+      top: 15px;
+      left: 20px; }
+    .footer-social-item2 {
+      background: url(../img/sprites.png) -58px 0;
+      width: 56px;
+      height: 55px;
+      position: absolute;
+      top: 15px;
+      left: 90px; }
+    .footer-social-item2:hover {
+      background: url(../img/sprites.png) -60px -57px;
+      width: 56px;
+      height: 55px;
+      position: absolute;
+      top: 15px;
+      left: 90px; }
+    .footer-social-item3 {
+      background: url(../img/sprites.png) -114px 0;
+      width: 57px;
+      height: 55px;
+      position: absolute;
+      top: 15px;
+      left: 170px; }
+    .footer-social-item3:hover {
+      background: url(../img/sprites.png) -116px -57px;
+      width: 57px;
+      height: 55px;
+      position: absolute;
+      top: 15px;
+      left: 170px; }
+    .footer-social-item4 {
+      background: url(../img/sprites.png) -172px 0;
+      width: 54px;
+      height: 55px;
+      position: absolute;
+      top: 15px;
+      left: 250px; }
+    .footer-social-item4:hover {
+      background: url(../img/sprites.png) -173px -55px;
+      width: 54px;
+      height: 55px;
+      position: absolute;
+      top: 15px;
+      left: 250px; }
   .footer-txt {
     width: 200px;
-    margin: 30px auto 0; }
+    padding-top: 150px; }
   .footer-copy {
     font: 16px Ubuntu, Arial, sans-serif;
     font-weight: bold;
